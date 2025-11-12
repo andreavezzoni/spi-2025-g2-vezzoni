@@ -1,0 +1,61 @@
+Question 1
+Yes, the user has the read and write permissions. As a consequence, devconnected can perform some modifications on the file.
+Question 2
+No! Bob belongs to the “others” category, which doesn’t have the write permission on the folder. As a consequence, he won’t be able to move the file.
+Question 3
+No. Bob belongs to the “others” category, which doesn’t have the execute (going through) permission on the folder. Bob will be denied the access.
+Question 4
+Yes! The write permission is set for the user. As a consequence, I will be able to write to this file.
+Question 5
+81! From right to left, each number represents an increasing power of 2. If you add the numbers (except for zeros), it ends up at 81.
+Question 6
+27! From right to left, each number represents an increasing power of 2. If you add the numbers (except for zeros), it ends up at 27.
+Question 7
+1100! By applying multiple divisions to the number 12, and counting remainders on those operations, you end up with the binary number 1100
+Question 8
+Setting permissions to 777 is equivalent to the following permissions : r w x r w x r w x so all permissions for all users.
+Question 9
+Setting permissions to 444 is equivalent to the following permissions : r – – r – – r – – so read only for all users.
+Question 10
+Setting permissions to 641 is equivalent to the following permissions : r w – r – – – – x so read-write the owner, r for the group and execute for the others.
+Question 11
+The permission mask can be seen using the umask command.
+Question 12
+The Linux permission mask is a mask that sets the permissions for newly created files. Files are created with a 666 permission by default and directories are created with a 777 permission by default. The mask value is then deducted from this value to create the initial permissions.
+Question 13
+The permissions for newly created files will be r w – r – – r – – (6 – 0 = 6, 6 – 2 = 4, 6 – 2 = 4)
+Question 14
+The permissions for newly created directories will be r w x r – x r – x (7 – 0 = 7, 7 – 2 = 5, 7 – 2 = 5)
+Question 15
+It means that the user is able to go through the directory for navigation.
+Question 16
+It means that the user is able to create and delete entries from this directory.
+Question 17
+It is called the sticky bit and it is used on Linux to create shared directories (for example the /tmp directory).
+Question 18
+No. If the sticky bit is activated, only the owner of the file will be able to delete this file (even if the other group has full permissions)
+Question 19
+No. The sticky bit is a capital “T” meaning that the sticky bit is set for this directory but the execute permission is not set. As a consequence, no users except for the user itself can go through this directory.
+Question 20
+It is the chown command. It should be directly followed by the new owner of the file and the name of the file we want to change.
+Question 21
+It is the chgrp command. It is directly followed by the new group and by the file we want to apply the command on.
+Question 22
+To change groups recursively, you have to use the -R option for the chgrp command.
+Question 23
+For the chgrp command to write all changes done, you should specify the -c option.
+Question 24
+The SUID is used to execute a command as the owner of the file instead of the user that issued the command.
+Question 25
+The passwd command ie executed with the SUID enabled on Linux. It allows users to change their own passwords without being able to change other people password.
+Question 26
+It is possible to set the SUID by executing “chmod u+s file” or “chmod 4777 file”
+Question 27
+The GUID is used to execute a command as a member of the group owning the file instead of the group of the user who issued the command.
+Question 28
+It is possible to set the GUID by executing “chmod g+s file” or “chmod 2777 file”
+Question 29
+No. In order for the permissions to be preserved, you have to run cp with the -p option.
+Question 30
+A lowercase t means that the sticky bit is set whereas an uppercase T means that the sticky bit is set but the execute permission is not set.
+
