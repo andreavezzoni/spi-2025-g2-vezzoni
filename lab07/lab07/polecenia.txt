@@ -1,0 +1,4 @@
+
+cal - wyświetla kalendarz
+chmod - zmienia uprawnienia
+ls - pokazuje pliki
