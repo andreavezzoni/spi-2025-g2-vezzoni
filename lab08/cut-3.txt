@@ -1,0 +1,7 @@
+Pyton. Leksykon kieszonkowy	2014	Lutz, Mark
+Wyrażenia regularne	2005	Friedl, Jeffrey
+Perl. Wprowadzenie	2006	Schwartz, Randal
+Nauka algorytmów	2022	Heineman, George
+Wydajność Javy	2020	Oaks, Scott
+Raspberry Pi. Receptury	2020	Monk, Simon
+React od podstaw	2021	Porcello, Eve
