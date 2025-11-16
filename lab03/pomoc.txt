@@ -1,4 +1,41 @@
-Na laboratorium nr 3 nauczyłam się kontynuować pracę w sklonowanym repozytorium Git.
-Utworzyłam nowy podkatalog lab03 oraz plik .keep zgodnie z instrukcją.
-Nauczyłam się dodawać nowe katalogi i pliki do systemu kontroli wersji przy użyciu git add, git commit i git push.
-Na końcu wykonałam commit oraz wysłałam zmiany na zdalne repozytorium spi-2025-g2-vezzoni.
+Wylogowywanie z konta:
+exit, logout, CTRL+D
+
+---
+
+Polecenie apropos:
+(aplikacja wyszukująca opisy stron man)
+$ apropos -e cat
+cat (1)               - concatenate files and print on the standard output
+zcat (1)              - compress/decompress files
+
+---
+
+Polecenie whatis:
+$ whatis cat
+cat (1)               - concatenate files and print on the standard output
+
+---
+
+Polecenie man:
+$ man cat
+(manual text displayed)
+
+---
+
+Polecenie info:
+$ info cat
+(info documentation displayed)
+
+---
+
+Polecenie whereis:
+$ whereis cat
+cat: /usr/bin/cat /usr/share/man/man1/cat.1.gz
+
+---
+
+Polecenie which:
+$ which cat
+/usr/bin/cat
+
