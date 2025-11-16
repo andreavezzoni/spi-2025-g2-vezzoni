@@ -1,0 +1,3 @@
+pyton	Pyton. Leksykon kieszonkowy	2014	Lutz, Mark
+sowa	Wyrażenia regularne	2005	Friedl, Jeffrey
+lama	Perl. Wprowadzenie	2006	Schwartz, Randal
