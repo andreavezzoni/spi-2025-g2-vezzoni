@@ -1,0 +1,4 @@
+Na laboratorium nr 3 nauczyłam się kontynuować pracę w sklonowanym repozytorium Git.
+Utworzyłam nowy podkatalog lab03 oraz plik .keep zgodnie z instrukcją.
+Nauczyłam się dodawać nowe katalogi i pliki do systemu kontroli wersji przy użyciu git add, git commit i git push.
+Na końcu wykonałam commit oraz wysłałam zmiany na zdalne repozytorium spi-2025-g2-vezzoni.
