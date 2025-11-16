@@ -1,0 +1,4 @@
+Na laboratorium nr 2 nauczyłam się podstawowej pracy z systemem kontroli wersji Git.
+Sklonowałam repozytorium spi-2025-g2-vezzoni na swój komputer przy użyciu polecenia git clone.
+Skonfigurowałam nazwę użytkownika i adres e-mail w Git, utworzyłam podkatalog lab02 oraz plik .keep, a następnie dodałam je do repozytorium.
+Na końcu wykonałam commit z odpowiednim komentarzem i wysłałam zmiany na zdalne repozytorium za pomocą git push.
