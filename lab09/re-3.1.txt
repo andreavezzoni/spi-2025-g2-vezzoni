@@ -1,0 +1,4 @@
+dirlist-bin.txt
+dirlist-sbin.txt
+dirlist-usr-bin.txt
+dirlist-usr-sbin.txt

@@ -1,0 +1,16 @@
+zipdetails
+zipgrep
+zipinfo
+zipdetails
+zipgrep
+zipinfo
+funzip
+gunzip
+gzip
+streamzip
+unzip
+funzip
+gunzip
+gzip
+streamzip
+unzip

@@ -1,0 +1,22 @@
+123 Ala ma kota x1234
+987 Numer wewnętrzny X9999
+55 12-345
+(55) 12-345
+AA 12-345
+Faktura 2021-11-05 została opłacona.
+Data spotkania: 2003-01-30
+adam
+eve
+vera
+Samolot startuje o 12:00
+Statek płynie do Szwecji
+CA
+ca
+California
+Napisz do mnie: test@example.com
+Inny mail: STUDENT@uni.edu
+Aug. 2023 – wakacje
+To jest de test
+node
+model
+kod de aktywacji
