@@ -1,0 +1,60 @@
+1. find / -name "*.conf"
+   Znajduje wszystkie pliki konfiguracyjne w całym systemie.
+
+2. find /etc -type f -name "hosts"
+   Wyszukuje plik „hosts” w katalogu /etc.
+
+3. find . -type d -name "backup"
+   Szuka katalogów o nazwie backup.
+
+4. find ~ -type f -iname "*.png"
+   Znajduje pliki PNG bez rozróżniania wielkości liter.
+
+5. find /var/log -size +1M
+   Szuka logów większych niż 1 MB.
+
+6. find /home -user root
+   Wyświetla pliki należące do root w katalogu /home.
+
+7. find / -perm 600
+   Pliki z uprawnieniami tylko dla właściciela.
+
+8. find . -type f -mtime -3
+   Pliki zmodyfikowane w ciągu ostatnich 3 dni.
+
+9. find . -type f -atime +10
+   Pliki nieotwierane od ponad 10 dni.
+
+10. find /tmp -empty
+    Znajduje puste katalogi i pliki.
+
+11. find /usr/bin -type f -executable
+    Wyświetla programy wykonywalne.
+
+12. find /etc -maxdepth 1 -type f
+    Szuka tylko w /etc, bez podkatalogów.
+
+13. find / -mindepth 2 -type d
+    Katalogi na głębokości co najmniej 2.
+
+14. find . -type f ! -name "*.txt"
+    Wszystkie pliki oprócz tekstowych.
+
+15. find / -path "*ssh*"
+    Szuka plików i katalogów zawierających w ścieżce „ssh”.
+
+16. find . -regex ".*\.sh"
+    Znajduje skrypty dopasowane regexem.
+
+17. find . -type f -exec wc -w {} \;
+    Liczy słowa we wszystkich plikach.
+
+18. find /var -type f -name "*.log" -delete
+    Usuwa wszystkie logi w /var.
+
+19. find . -type f -exec sha256sum {} \;
+    Oblicza sumy SHA256.
+
+20. find . -type f -printf "%p → %k KB\n"
+    Podaje ścieżkę i rozmiar pliku w KB.
+

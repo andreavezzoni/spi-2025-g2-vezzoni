@@ -1,0 +1,105 @@
+1. find / -name file.txt
+   Szuka pliku o nazwie file.txt zaczynając od katalogu głównego.
+
+2. find . -name "*.txt"
+   Znajduje wszystkie pliki .txt w bieżącym katalogu.
+
+3. find /home -type f -name "*.pdf"
+   Szuka plików PDF w katalogu /home.
+
+4. find /etc -type d
+   Wyświetla wszystkie katalogi w /etc.
+
+5. find . -type l
+   Pokazuje wszystkie linki symboliczne w bieżącym katalogu.
+
+6. find /var/log -mtime -1
+   Znajduje pliki zmodyfikowane w ciągu ostatnich 24 godzin.
+
+7. find /tmp -empty
+   Pokazuje puste pliki lub katalogi.
+
+8. find . -size +10M
+   Znajduje pliki większe niż 10 MB.
+
+9. find . -size -1k
+   Wyszukuje pliki mniejsze niż 1 KB.
+
+10. find . -user root
+    Pliki należące do użytkownika root.
+
+11. find . ! -user root
+    Pliki, które nie należą do użytkownika root.
+
+12. find / -perm 644
+    Znajduje pliki z uprawnieniami 644.
+
+13. find / -perm 777
+    Znajduje pliki z pełnymi uprawnieniami.
+
+14. find . -type f -perm /111
+    Pliki wykonywalne (execute).
+
+15. find / -group adm
+    Pliki należące do grupy adm.
+
+16. find / -name "*.sh" -exec chmod +x {} \;
+    Nadaje prawa wykonywania wszystkim skryptom .sh.
+
+17. find /var -type f -name "*.log" -delete
+    Usuwa wszystkie pliki .log w /var.
+
+18. find ~ -maxdepth 1 -type f
+    Wyświetla tylko pliki w katalogu domowym (bez podkatalogów).
+
+19. find / -mindepth 3 -type d
+    Pokazuje katalogi co najmniej 3 poziomy głębokości.
+
+20. find / -iname "*.jpg"
+    Wyszukiwanie plików .jpg bez rozróżniania wielkości liter.
+
+21. find . -ctime +7
+    Pliki, których metadane zmieniono ponad 7 dni temu.
+
+22. find / -atime -2
+    Pliki odczytane w ciągu ostatnich 2 dni.
+
+23. find /home -links +1
+    Pliki z więcej niż jednym twardym dowiązaniem.
+
+24. find /usr -type f -executable
+    Wszystkie pliki wykonywalne w /usr.
+
+25. find . -type f -name "*.txt" -print
+    Wyświetla pełne ścieżki do plików .txt.
+
+26. find . -regex ".*\.txt"
+    Pliki pasujące do wyrażenia regex.
+
+27. find / -newer file.txt
+    Pliki zmodyfikowane później niż file.txt.
+
+28. find . -type f -not -name "*.txt"
+    Znajduje wszystkie pliki poza .txt.
+
+29. find / -path "*bin*"
+    Wyszukuje pliki, których ścieżka zawiera „bin”.
+
+30. find . -type f -exec md5sum {} \;
+    Oblicza sumy md5 dla każdego pliku.
+
+31. find . -type f -exec wc -l {} \;
+    Zlicza linie w znalezionych plikach.
+
+32. find / -iname "*.mp3" -o -iname "*.wav"
+    Znajduje pliki audio mp3 lub wav.
+
+33. find /tmp -type f -amin -10
+    Pliki modyfikowane w ciągu ostatnich 10 minut.
+
+34. find /var/log -type f -size +5M -exec gzip {} \;
+    Kompresuje duże logi.
+
+35. find . -type f -printf "%f → %s bytes\n"
+    Wyświetla nazwę pliku i jego rozmiar.
+
