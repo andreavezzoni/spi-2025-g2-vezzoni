@@ -1,3 +1,5 @@
 Pierwsza linia
 Druga linia
+# To jest komentarz
 Trzecia linia
+
